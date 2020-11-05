@@ -1,0 +1,15 @@
+/* event.makeEvent.blade.php */
+.btn:hover{
+    opacity:1.5;
+  }
+
+  .btn{
+    font-size:20px;
+}
+
+select{
+  font-size:14px;
+  border:1px;
+  }
+
+  

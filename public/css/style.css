@@ -1,0 +1,197 @@
+/* ホームページメイン画面 */
+  .bg-image{
+    height:600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+
+  .comment1{
+    font-size:18px;
+    /* margin-top: 300px; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+/* ヘッダーの文字に影つける */
+  .comment1 p{
+    text-shadow: #0f1721 3px 0px 10px;
+  }
+
+  .mypage {
+    padding-left: 0;
+    margin: 0 auto;
+    padding-bottom:20px;
+  }
+
+  .connect {
+    text-align: right;
+  }
+/* ヘッダーの文字に影をつける */
+  .comment-con {
+    padding-top:75px;
+    text-shadow: #0f1721 3px 0px 10px;
+  }
+
+/* イベント */
+  .event{
+    margin-top:40px;
+    margin-bottom:40px;
+  }
+
+  .container-fluid section {
+    margin: 10px;
+    border-radius: 5px;
+    background: #F5F0CF;
+    padding: 15px;
+    display: flex;
+  }
+/* イベント・グループの説明欄 */
+  .contents{
+    font-size:20px;
+    margin-left: 146px;
+    text-align: left;
+  }
+
+  .contents-into p {
+    margin-top: 10px;
+  }
+/* グループカードの画像のサイズ */
+  .card img{
+    width:100%;
+  }
+
+/* 矢印用スタイル */
+  .prev-arrow,
+  .next-arrow {
+    position: absolute;
+    top: 50%;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .prev-arrow {
+    left: -40px;
+  }
+
+  .next-arrow {
+    right: -40px;
+  }
+
+/* グループ一覧 */
+  .group{
+    margin-bottom:40px;
+  }
+
+/* CPICの仕組み */
+  .description-wrapper{
+    /* height:22rem; */
+    padding-bottom:30px;
+    background-color: #0f1721;
+    text-align:center;
+    margin-bottom:40px;
+  }
+
+  .heading{
+    padding-top:40px;
+    padding-bottom:20px;
+  }
+
+  .heading h2{
+    font-weight:normal;
+  }
+
+  .icon{
+    padding-left:20px;
+  }
+
+  .description{
+    float:left;
+  }
+
+  .txt-contents{
+    /* width:80%; */
+    display:inline-block;
+    margin:20px;
+    font-size:15px;
+  }
+  /* news一覧 */
+  .news{
+    margin-bottom:40px;
+  }
+
+  .news h2{
+    margin-bottom:20px;
+  }
+  .msr_newslist02 {
+    width: 100%;
+  }
+  .msr_newslist02 li {
+    font-size: 14px;
+    background-color: #F3F3F3;
+  }
+  .msr_newslist02 li:nth-child(odd) {
+    background-color: #E6E6E6;
+  }
+  .msr_newslist02 li a {
+    box-sizing: border-box;
+    color: #000000;
+    display: table;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    width: 100%;
+  }
+  .msr_newslist02 li a:hover {
+    text-decoration: none;
+    background-color: #FDFDFD;
+  }
+  .msr_newslist02 li div {
+    display: table-cell;
+    width: 144px;
+  }
+  .msr_newslist02 li p {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  /* 時間の設定 */
+  .msr_newslist02 li time {
+    display: table-cell;
+    vertical-align: top;
+    width: 90px;
+  }
+  /* カテゴリの設定 */
+  .msr_newslist02 li .cpic01,
+  .msr_newslist02 li .cpic02 {
+    background-color: #1B73BA;
+    border-radius: 1px;
+    color: #FFFFFF;
+    font-size: 9px;
+    padding: 0 2px;
+    text-align: center;
+    width: 50px;
+  }
+  .msr_newslist02 li .cpic02 {
+    background-color: #0E3A5F;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .contents{
+      /* font-size:20px; */
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+
+  ul{
+    list-style: none;
+  }
